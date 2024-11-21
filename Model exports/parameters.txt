@@ -1,0 +1,24 @@
+Run Name: Oct22_protANDmRNA_weights_residual
+Seed: 43
+Set: Protein
+Canvas size: 18
+Validation Fraction: 0.2
+Standard deviation in add-noise transformation: 0.05
+Model: CustomNN-stride2
+Weight Decay (L2): 0.001
+Momentum: None
+Loss Function: CrossEntropy
+Optimizer: Adam
+Learning Rate: 5e-05
+LR Scheduler?: True
+Label Smoothing: 0.05
+Class Weights: tensor([0.8341, 2.6591, 1.2474, 1.5630], device='cuda:0')
+Batch Size: 64
+Epoch: 2000
+Best Epoch: 161
+Transformed?: True
+Training sample balanced?: True
+Best Validation accuracy: 0.557
+Validation macro-avg F1 score: 0.506
+Validation precision: [0.587 0.216 0.68  0.473]
+Validation recall: [0.656 0.328 0.452 0.493]
