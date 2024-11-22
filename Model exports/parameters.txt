@@ -1,4 +1,4 @@
-Run Name: Oct22_protANDmRNA_weights_residual
+Run Name: Nov21_Protein
 Seed: 43
 Set: Protein
 Canvas size: 18
@@ -15,10 +15,10 @@ Label Smoothing: 0.05
 Class Weights: tensor([0.8341, 2.6591, 1.2474, 1.5630], device='cuda:0')
 Batch Size: 64
 Epoch: 2000
-Best Epoch: 161
+Best Epoch: 1442
 Transformed?: True
 Training sample balanced?: True
-Best Validation accuracy: 0.557
-Validation macro-avg F1 score: 0.506
-Validation precision: [0.587 0.216 0.68  0.473]
-Validation recall: [0.656 0.328 0.452 0.493]
+Best Validation accuracy: 0.555
+Validation macro-avg F1 score: 0.497
+Validation precision: [0.632 0.196 0.708 0.407]
+Validation recall: [0.546 0.344 0.507 0.573]
