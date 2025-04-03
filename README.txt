@@ -1,0 +1,1 @@
+This repository contains jupyter notebooks for building and training a CNN that will predict protein localization based on integration of proteomics and transcriptomics data sets from breast tumors. Protein compartment labels are from a high-throughput MS centrifugal fraction proteomics study (Orre Mol. Cell 2019).
